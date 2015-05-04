@@ -53,7 +53,7 @@ if propuesta=="*": #Una opción para que el usuario se rinda
 	print "\nSuerte la próxima vez"
 else:
 	if intentos==1:
-		print "\nFelicitaciones ""Adivinaste el código en %d intento"% intentos
+
 		print """\n
 __     ______  _    _  __          _______ _   _ 
 \ \   / / __ \| |  | | \ \        / /_   _| \ | |
@@ -63,6 +63,7 @@ __     ______  _    _  __          _______ _   _
    |_|  \____/ \____/      \/  \/   |_____|_| \_|
                                                  
                                                  """
+		print "Adivinaste el código en el primer intento"
 	else:
 		print """\n
 __     ______  _    _  __          _______ _   _ 
