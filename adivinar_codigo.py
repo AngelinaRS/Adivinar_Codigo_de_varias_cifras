@@ -20,7 +20,7 @@ for num in range(cantidad_de_codigo): #itera en la respuesta del usuario
 		codigo_generado=random.choice(codigo)
 	codigo_a_adivinar=codigo_a_adivinar + codigo_generado
 
-print codigo_a_adivinar 
+#print codigo_a_adivinar 
 
 
 
