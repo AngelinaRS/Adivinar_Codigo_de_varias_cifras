@@ -41,10 +41,37 @@ while propuesta != codigo_a_adivinar and propuesta!="*":
 	propuesta=raw_input("\nPropón otro código o (* para rendirte)  ")
 
 if propuesta=="*": #Una opción para que el usuario se rinda
+	print """\n
+       ______  _    _    _      ____   _____ ______ 
+\ \   / / __ \| |  | |  | |    / __ \ / ____|  ____|
+ \ \_/ / |  | | |  | |  | |   | |  | | (___ | |__   
+  \   /| |  | | |  | |  | |   | |  | |\___ \|  __|  
+   | | | |__| | |__| |  | |___| |__| |____) | |____ 
+   |_|  \____/ \____/   |______\____/|_____/|______|
+                                                    """
 	print "\nEl código era: %s" % codigo_a_adivinar 
 	print "\nSuerte la próxima vez"
 else:
 	if intentos==1:
-		print "\nFelicitaciones adivinaste el código en %d intento"% intentos
+		print "\nFelicitaciones ""Adivinaste el código en %d intento"% intentos
+		print """\n
+__     ______  _    _  __          _______ _   _ 
+\ \   / / __ \| |  | | \ \        / /_   _| \ | |
+ \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |
+  \   /| |  | | |  | |   \ \/  \/ /   | | | . ` |
+   | | | |__| | |__| |    \  /\  /   _| |_| |\  |
+   |_|  \____/ \____/      \/  \/   |_____|_| \_|
+                                                 
+                                                 """
 	else:
-		print "\n”Felicitaciones adivinaste el código en %d intentos"% intentos
+		print """\n
+__     ______  _    _  __          _______ _   _ 
+\ \   / / __ \| |  | | \ \        / /_   _| \ | |
+ \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |
+  \   /| |  | | |  | |   \ \/  \/ /   | | | . ` |
+   | | | |__| | |__| |    \  /\  /   _| |_| |\  |
+   |_|  \____/ \____/      \/  \/   |_____|_| \_|
+                                                 
+                                                 """
+
+		print "\nAdivinaste el código en %d intentos"% intentos
